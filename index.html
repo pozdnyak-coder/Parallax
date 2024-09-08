@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="container header-nav">
+            <a href="#">LOGO</a>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1> Parallax Effect</h1>
+        </div>
+        <img src="img/fantasy.png" alt="" class="header__fantasy">
+        <img src="img/cloud1.png"  alt="" class="header__cloud cloud1" data-speed = "0.45">
+        <img src="img/cloud2.png"  alt="" class="header__cloud cloud2" data-speed = "0.60">
+        <img src="img/cloud3.png"  alt="" class="header__cloud cloud3" data-speed = "-0.80">
+        <img src="img/boat.png"    alt="" class="header__boat">
+    </header>
+    
+    <main class="main">
+        <section class="parallax">
+            <div class="parallax-box">
+                <img src="img/parallax/Parallax_3.png" alt="" class="parallax__banner">
+                <img src="img/parallax/Parallax_4.png" alt="" class="parallax__ball layer1" data-speed="3">
+                <img src="img/parallax/Parallax_5.png" alt="" class="parallax__ball layer2" data-speed="-5">
+            </div>
+        </section>
+        <section class="container timer">
+            <div class="timer__item">
+                <p class="timer__num" data-num = "243">243</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
+                <a href="#" class="timer__btn">Button<span></span></a>
+            </div>
+            <div class="timer__item">
+                <p class="timer__num" data-num = "520">520</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
+                <a href="#" class="timer__btn">Button<span></span></a>
+            </div>
+            <div class="timer__item">
+                <p class="timer__num" data-num = "789">789</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
+                <a href="#" class="timer__btn">Button<span></span></a>
+            </div>
+            <div class="timer__item">
+                <p class="timer__num" data-num = "1234">1234</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, consequuntur.</p>
+                <a href="#" class="timer__btn">Button<span></span></a>
+            </div>
+        </section>
+        <section class="scroll">
+            <div class="container scroll-cards">
+                <div class="scroll-card fade-right" data-speed = "400"></div>
+                <div class="scroll-card fade-right" data-speed = "600"></div>
+                <div class="scroll-card fade-right" data-speed = "800"></div>
+                <div class="scroll-card fade-right" data-speed = "1000"></div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container scroll-cards">
+                <div class="card">
+                    <div class="card__item"></div>
+                </div>
+                <div class="card">
+                    <div class="card__item"></div>
+                </div>
+                <div class="card">
+                    <div class="card__item"></div>
+                </div>
+                <div class="card">
+                    <div class="card__item"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
